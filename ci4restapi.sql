@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Des 2021 pada 14.08
+-- Waktu pembuatan: 08 Des 2021 pada 00.32
 -- Versi server: 10.4.14-MariaDB
 -- Versi PHP: 7.4.10
 
@@ -42,7 +42,8 @@ CREATE TABLE `pegawai` (
 --
 
 INSERT INTO `pegawai` (`id`, `foto`, `nama`, `umur`, `tanggallahir`, `email`, `password`) VALUES
-(43, 0x433a5c78616d70705c746d705c706870433831432e746d70, 'rr', '12', '13', 'solehahu@gmail.com', 'asta');
+(43, 0x433a5c78616d70705c746d705c706870433831432e746d70, 'rr', '12', '13', 'solehahu@gmail.com', 'asta'),
+(44, 0x433a5c78616d70705c746d705c706870343834342e746d70, 'Topkarir', '10', '10', 'topkarir@gmail.com', 'topkarir');
 
 --
 -- Indexes for dumped tables
@@ -62,7 +63,7 @@ ALTER TABLE `pegawai`
 -- AUTO_INCREMENT untuk tabel `pegawai`
 --
 ALTER TABLE `pegawai`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
